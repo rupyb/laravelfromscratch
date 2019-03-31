@@ -62,9 +62,7 @@
                   </li>
                 @endif
                 @else
-                <li>
-                  <a href="/dashboard">Dashboard</a>
-                </li>
+               
                   <li class="nav-item dropdown">
                     <a id="navbarDropdown" 
                       class="nav-link dropdown-toggle" 
