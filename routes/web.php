@@ -22,3 +22,7 @@ Route::get('/users/{id}', function ($id) {
 });
 
 Route::resource('posts', 'PostController');
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');
