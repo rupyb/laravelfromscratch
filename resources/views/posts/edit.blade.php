@@ -11,7 +11,7 @@
             {{Form::label('body', 'Body')}}
             {{Form::textarea('body', $post->body,[
                 'id' => 'article-ckeditor',
-                'class' => 'form-control', 
+                'class' => 'form-control ckeditor', 
                 'placeholder' => 'Body Text'
                 ])}}
         </div>
